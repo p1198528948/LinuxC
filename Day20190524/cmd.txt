@@ -1,0 +1,8 @@
+
+gcc hello.c -o hello
+
+gcc -E hello.c -o hello.i
+
+ldd hello
+
+gcc hello.c -S
